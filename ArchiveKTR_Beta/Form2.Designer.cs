@@ -33,15 +33,15 @@
             this.bunifuElipse1 = new Bunifu.Framework.UI.BunifuElipse(this.components);
             this.bunifuDragControl1 = new Bunifu.Framework.UI.BunifuDragControl(this.components);
             this.bunifuGradientPanel1 = new Bunifu.Framework.UI.BunifuGradientPanel();
-            this.bunifuTextbox2 = new Bunifu.Framework.UI.BunifuTextbox();
-            this.bunifuTextbox1 = new Bunifu.Framework.UI.BunifuTextbox();
-            this.bunifuFlatButton1 = new Bunifu.Framework.UI.BunifuFlatButton();
+            this.textPassword = new Bunifu.Framework.UI.BunifuTextbox();
+            this.textEmail = new Bunifu.Framework.UI.BunifuTextbox();
+            this.buttonSignin = new Bunifu.Framework.UI.BunifuFlatButton();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.bunifuCustomLabel1 = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.pictureClose = new System.Windows.Forms.PictureBox();
             this.bunifuGradientPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureClose)).BeginInit();
             this.SuspendLayout();
             // 
             // bunifuElipse1
@@ -53,19 +53,19 @@
             // 
             this.bunifuDragControl1.Fixed = true;
             this.bunifuDragControl1.Horizontal = true;
-            this.bunifuDragControl1.TargetControl = null;
+            this.bunifuDragControl1.TargetControl = this.bunifuGradientPanel1;
             this.bunifuDragControl1.Vertical = true;
             // 
             // bunifuGradientPanel1
             // 
             this.bunifuGradientPanel1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuGradientPanel1.BackgroundImage")));
             this.bunifuGradientPanel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.bunifuGradientPanel1.Controls.Add(this.pictureBox2);
+            this.bunifuGradientPanel1.Controls.Add(this.pictureClose);
             this.bunifuGradientPanel1.Controls.Add(this.bunifuCustomLabel1);
             this.bunifuGradientPanel1.Controls.Add(this.pictureBox1);
-            this.bunifuGradientPanel1.Controls.Add(this.bunifuTextbox2);
-            this.bunifuGradientPanel1.Controls.Add(this.bunifuTextbox1);
-            this.bunifuGradientPanel1.Controls.Add(this.bunifuFlatButton1);
+            this.bunifuGradientPanel1.Controls.Add(this.textPassword);
+            this.bunifuGradientPanel1.Controls.Add(this.textEmail);
+            this.bunifuGradientPanel1.Controls.Add(this.buttonSignin);
             this.bunifuGradientPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.bunifuGradientPanel1.GradientBottomLeft = System.Drawing.Color.Navy;
             this.bunifuGradientPanel1.GradientBottomRight = System.Drawing.Color.SeaGreen;
@@ -77,68 +77,69 @@
             this.bunifuGradientPanel1.Size = new System.Drawing.Size(393, 402);
             this.bunifuGradientPanel1.TabIndex = 0;
             // 
-            // bunifuTextbox2
+            // textPassword
             // 
-            this.bunifuTextbox2.BackColor = System.Drawing.Color.White;
-            this.bunifuTextbox2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuTextbox2.BackgroundImage")));
-            this.bunifuTextbox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.bunifuTextbox2.ForeColor = System.Drawing.Color.SeaGreen;
-            this.bunifuTextbox2.Icon = ((System.Drawing.Image)(resources.GetObject("bunifuTextbox2.Icon")));
-            this.bunifuTextbox2.Location = new System.Drawing.Point(86, 230);
-            this.bunifuTextbox2.Name = "bunifuTextbox2";
-            this.bunifuTextbox2.Size = new System.Drawing.Size(232, 42);
-            this.bunifuTextbox2.TabIndex = 3;
-            this.bunifuTextbox2.text = "password";
-            this.bunifuTextbox2.OnTextChange += new System.EventHandler(this.bunifuTextbox2_OnTextChange);
+            this.textPassword.BackColor = System.Drawing.Color.White;
+            this.textPassword.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("textPassword.BackgroundImage")));
+            this.textPassword.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.textPassword.ForeColor = System.Drawing.Color.SeaGreen;
+            this.textPassword.Icon = ((System.Drawing.Image)(resources.GetObject("textPassword.Icon")));
+            this.textPassword.Location = new System.Drawing.Point(86, 230);
+            this.textPassword.Name = "textPassword";
+            this.textPassword.Size = new System.Drawing.Size(232, 42);
+            this.textPassword.TabIndex = 3;
+            this.textPassword.text = "password";
+            this.textPassword.OnTextChange += new System.EventHandler(this.bunifuTextbox2_OnTextChange);
             // 
-            // bunifuTextbox1
+            // textEmail
             // 
-            this.bunifuTextbox1.BackColor = System.Drawing.Color.White;
-            this.bunifuTextbox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuTextbox1.BackgroundImage")));
-            this.bunifuTextbox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.bunifuTextbox1.ForeColor = System.Drawing.Color.SeaGreen;
-            this.bunifuTextbox1.Icon = ((System.Drawing.Image)(resources.GetObject("bunifuTextbox1.Icon")));
-            this.bunifuTextbox1.Location = new System.Drawing.Point(86, 182);
-            this.bunifuTextbox1.Name = "bunifuTextbox1";
-            this.bunifuTextbox1.Size = new System.Drawing.Size(232, 42);
-            this.bunifuTextbox1.TabIndex = 2;
-            this.bunifuTextbox1.text = "email";
-            this.bunifuTextbox1.OnTextChange += new System.EventHandler(this.bunifuTextbox1_OnTextChange);
+            this.textEmail.BackColor = System.Drawing.Color.White;
+            this.textEmail.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("textEmail.BackgroundImage")));
+            this.textEmail.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.textEmail.ForeColor = System.Drawing.Color.SeaGreen;
+            this.textEmail.Icon = ((System.Drawing.Image)(resources.GetObject("textEmail.Icon")));
+            this.textEmail.Location = new System.Drawing.Point(86, 182);
+            this.textEmail.Name = "textEmail";
+            this.textEmail.Size = new System.Drawing.Size(232, 42);
+            this.textEmail.TabIndex = 2;
+            this.textEmail.text = "email";
+            this.textEmail.OnTextChange += new System.EventHandler(this.bunifuTextbox1_OnTextChange);
             // 
-            // bunifuFlatButton1
+            // buttonSignin
             // 
-            this.bunifuFlatButton1.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(139)))), ((int)(((byte)(87)))));
-            this.bunifuFlatButton1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(139)))), ((int)(((byte)(87)))));
-            this.bunifuFlatButton1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.bunifuFlatButton1.BorderRadius = 0;
-            this.bunifuFlatButton1.ButtonText = "                               Вход";
-            this.bunifuFlatButton1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.bunifuFlatButton1.DisabledColor = System.Drawing.Color.Gray;
-            this.bunifuFlatButton1.Font = new System.Drawing.Font("Segoe UI Light", 8.25F);
-            this.bunifuFlatButton1.Iconcolor = System.Drawing.Color.Transparent;
-            this.bunifuFlatButton1.Iconimage = ((System.Drawing.Image)(resources.GetObject("bunifuFlatButton1.Iconimage")));
-            this.bunifuFlatButton1.Iconimage_right = null;
-            this.bunifuFlatButton1.Iconimage_right_Selected = null;
-            this.bunifuFlatButton1.Iconimage_Selected = null;
-            this.bunifuFlatButton1.IconMarginLeft = 0;
-            this.bunifuFlatButton1.IconMarginRight = 0;
-            this.bunifuFlatButton1.IconRightVisible = true;
-            this.bunifuFlatButton1.IconRightZoom = 0D;
-            this.bunifuFlatButton1.IconVisible = false;
-            this.bunifuFlatButton1.IconZoom = 90D;
-            this.bunifuFlatButton1.IsTab = false;
-            this.bunifuFlatButton1.Location = new System.Drawing.Point(86, 284);
-            this.bunifuFlatButton1.Name = "bunifuFlatButton1";
-            this.bunifuFlatButton1.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(139)))), ((int)(((byte)(87)))));
-            this.bunifuFlatButton1.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(129)))), ((int)(((byte)(77)))));
-            this.bunifuFlatButton1.OnHoverTextColor = System.Drawing.Color.White;
-            this.bunifuFlatButton1.selected = false;
-            this.bunifuFlatButton1.Size = new System.Drawing.Size(232, 48);
-            this.bunifuFlatButton1.TabIndex = 0;
-            this.bunifuFlatButton1.Text = "                               Вход";
-            this.bunifuFlatButton1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.bunifuFlatButton1.Textcolor = System.Drawing.Color.White;
-            this.bunifuFlatButton1.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonSignin.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(139)))), ((int)(((byte)(87)))));
+            this.buttonSignin.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(139)))), ((int)(((byte)(87)))));
+            this.buttonSignin.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.buttonSignin.BorderRadius = 0;
+            this.buttonSignin.ButtonText = "                               Вход";
+            this.buttonSignin.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.buttonSignin.DisabledColor = System.Drawing.Color.Gray;
+            this.buttonSignin.Font = new System.Drawing.Font("Segoe UI Light", 8.25F);
+            this.buttonSignin.Iconcolor = System.Drawing.Color.Transparent;
+            this.buttonSignin.Iconimage = ((System.Drawing.Image)(resources.GetObject("buttonSignin.Iconimage")));
+            this.buttonSignin.Iconimage_right = null;
+            this.buttonSignin.Iconimage_right_Selected = null;
+            this.buttonSignin.Iconimage_Selected = null;
+            this.buttonSignin.IconMarginLeft = 0;
+            this.buttonSignin.IconMarginRight = 0;
+            this.buttonSignin.IconRightVisible = true;
+            this.buttonSignin.IconRightZoom = 0D;
+            this.buttonSignin.IconVisible = false;
+            this.buttonSignin.IconZoom = 90D;
+            this.buttonSignin.IsTab = false;
+            this.buttonSignin.Location = new System.Drawing.Point(86, 284);
+            this.buttonSignin.Name = "buttonSignin";
+            this.buttonSignin.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(139)))), ((int)(((byte)(87)))));
+            this.buttonSignin.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(129)))), ((int)(((byte)(77)))));
+            this.buttonSignin.OnHoverTextColor = System.Drawing.Color.White;
+            this.buttonSignin.selected = false;
+            this.buttonSignin.Size = new System.Drawing.Size(232, 48);
+            this.buttonSignin.TabIndex = 0;
+            this.buttonSignin.Text = "                               Вход";
+            this.buttonSignin.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.buttonSignin.Textcolor = System.Drawing.Color.White;
+            this.buttonSignin.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonSignin.Click += new System.EventHandler(this.buttonSignin_Click);
             // 
             // pictureBox1
             // 
@@ -163,17 +164,17 @@
             this.bunifuCustomLabel1.TabIndex = 5;
             this.bunifuCustomLabel1.Text = "Архив";
             // 
-            // pictureBox2
+            // pictureClose
             // 
-            this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(365, 7);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(18, 21);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox2.TabIndex = 6;
-            this.pictureBox2.TabStop = false;
-            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
+            this.pictureClose.BackColor = System.Drawing.Color.Transparent;
+            this.pictureClose.Image = ((System.Drawing.Image)(resources.GetObject("pictureClose.Image")));
+            this.pictureClose.Location = new System.Drawing.Point(365, 7);
+            this.pictureClose.Name = "pictureClose";
+            this.pictureClose.Size = new System.Drawing.Size(18, 21);
+            this.pictureClose.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureClose.TabIndex = 6;
+            this.pictureClose.TabStop = false;
+            this.pictureClose.Click += new System.EventHandler(this.pictureBox2_Click);
             // 
             // Form2
             // 
@@ -187,7 +188,7 @@
             this.bunifuGradientPanel1.ResumeLayout(false);
             this.bunifuGradientPanel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureClose)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -197,11 +198,11 @@
         private Bunifu.Framework.UI.BunifuElipse bunifuElipse1;
         private Bunifu.Framework.UI.BunifuDragControl bunifuDragControl1;
         private Bunifu.Framework.UI.BunifuGradientPanel bunifuGradientPanel1;
-        private Bunifu.Framework.UI.BunifuTextbox bunifuTextbox1;
-        private Bunifu.Framework.UI.BunifuFlatButton bunifuFlatButton1;
-        private Bunifu.Framework.UI.BunifuTextbox bunifuTextbox2;
+        private Bunifu.Framework.UI.BunifuTextbox textEmail;
+        private Bunifu.Framework.UI.BunifuFlatButton buttonSignin;
+        private Bunifu.Framework.UI.BunifuTextbox textPassword;
         private System.Windows.Forms.PictureBox pictureBox1;
         private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel1;
-        private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.PictureBox pictureClose;
     }
 }

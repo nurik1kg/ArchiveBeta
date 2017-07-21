@@ -31,5 +31,12 @@ namespace ArchiveKTR_Beta
         {
             Close();
         }
+
+        private void buttonSignin_Click(object sender, EventArgs e)
+        {
+            Form1 main = new Form1();
+            Hide();
+            main.Show(this);
+        }
     }
 }
