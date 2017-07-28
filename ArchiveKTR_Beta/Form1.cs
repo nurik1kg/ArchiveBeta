@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Data.SqlClient;
 
 namespace ArchiveKTR_Beta
 {
@@ -15,7 +16,6 @@ namespace ArchiveKTR_Beta
         public Form1()
         {
             InitializeComponent();
-
         }
 
         private void bunifuFlatButton5_Click(object sender, EventArgs e)
@@ -26,11 +26,6 @@ namespace ArchiveKTR_Beta
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
 
-        }
-
-        private void Form1_Closed(Object sender, System.EventArgs e)
-        {
-            
         }
 
         private void Form1_Load(object sender, EventArgs e)

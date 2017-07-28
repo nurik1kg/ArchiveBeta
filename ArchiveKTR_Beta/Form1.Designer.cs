@@ -40,11 +40,11 @@
             this.manuList = new Bunifu.Framework.UI.BunifuFlatButton();
             this.bunifuDragControl1 = new Bunifu.Framework.UI.BunifuDragControl(this.components);
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.fileName = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.archiveInfo = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.archiveTitle = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.name = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.number = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.name = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.archiveTitle = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.archiveInfo = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.fileName = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.bunifuGradientPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
@@ -98,7 +98,7 @@
             this.menuExit.DisabledColor = System.Drawing.Color.Gray;
             this.menuExit.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.menuExit.Iconcolor = System.Drawing.Color.Transparent;
-            this.menuExit.Iconimage = ((System.Drawing.Image)(resources.GetObject("menuExit.Iconimage")));
+            this.menuExit.Iconimage = null;
             this.menuExit.Iconimage_right = null;
             this.menuExit.Iconimage_right_Selected = null;
             this.menuExit.Iconimage_Selected = null;
@@ -135,7 +135,7 @@
             this.menuHelp.DisabledColor = System.Drawing.Color.Gray;
             this.menuHelp.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.menuHelp.Iconcolor = System.Drawing.Color.Transparent;
-            this.menuHelp.Iconimage = ((System.Drawing.Image)(resources.GetObject("menuHelp.Iconimage")));
+            this.menuHelp.Iconimage = null;
             this.menuHelp.Iconimage_right = null;
             this.menuHelp.Iconimage_right_Selected = null;
             this.menuHelp.Iconimage_Selected = null;
@@ -171,7 +171,7 @@
             this.menuSearch.DisabledColor = System.Drawing.Color.Gray;
             this.menuSearch.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.menuSearch.Iconcolor = System.Drawing.Color.Transparent;
-            this.menuSearch.Iconimage = ((System.Drawing.Image)(resources.GetObject("menuSearch.Iconimage")));
+            this.menuSearch.Iconimage = null;
             this.menuSearch.Iconimage_right = null;
             this.menuSearch.Iconimage_right_Selected = null;
             this.menuSearch.Iconimage_Selected = null;
@@ -207,7 +207,7 @@
             this.manuAdd.DisabledColor = System.Drawing.Color.Gray;
             this.manuAdd.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.manuAdd.Iconcolor = System.Drawing.Color.Transparent;
-            this.manuAdd.Iconimage = ((System.Drawing.Image)(resources.GetObject("manuAdd.Iconimage")));
+            this.manuAdd.Iconimage = null;
             this.manuAdd.Iconimage_right = null;
             this.manuAdd.Iconimage_right_Selected = null;
             this.manuAdd.Iconimage_Selected = null;
@@ -243,7 +243,7 @@
             this.manuList.DisabledColor = System.Drawing.Color.Gray;
             this.manuList.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.manuList.Iconcolor = System.Drawing.Color.Transparent;
-            this.manuList.Iconimage = ((System.Drawing.Image)(resources.GetObject("manuList.Iconimage")));
+            this.manuList.Iconimage = null;
             this.manuList.Iconimage_right = null;
             this.manuList.Iconimage_right_Selected = null;
             this.manuList.Iconimage_Selected = null;
@@ -285,36 +285,36 @@
             this.archiveTitle,
             this.archiveInfo,
             this.fileName});
-            this.dataGridView1.Location = new System.Drawing.Point(235, 122);
+            this.dataGridView1.Location = new System.Drawing.Point(232, 91);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(617, 300);
+            this.dataGridView1.Size = new System.Drawing.Size(617, 327);
             this.dataGridView1.TabIndex = 1;
             this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
-            // fileName
+            // number
             // 
-            this.fileName.HeaderText = "file";
-            this.fileName.Name = "fileName";
-            // 
-            // archiveInfo
-            // 
-            this.archiveInfo.HeaderText = "Archive Info";
-            this.archiveInfo.Name = "archiveInfo";
-            // 
-            // archiveTitle
-            // 
-            this.archiveTitle.HeaderText = "Title Archive";
-            this.archiveTitle.Name = "archiveTitle";
+            this.number.HeaderText = "#";
+            this.number.Name = "number";
             // 
             // name
             // 
             this.name.HeaderText = "Name";
             this.name.Name = "name";
             // 
-            // number
+            // archiveTitle
             // 
-            this.number.HeaderText = "#";
-            this.number.Name = "number";
+            this.archiveTitle.HeaderText = "Title Archive";
+            this.archiveTitle.Name = "archiveTitle";
+            // 
+            // archiveInfo
+            // 
+            this.archiveInfo.HeaderText = "Archive Info";
+            this.archiveInfo.Name = "archiveInfo";
+            // 
+            // fileName
+            // 
+            this.fileName.HeaderText = "file";
+            this.fileName.Name = "fileName";
             // 
             // Form1
             // 

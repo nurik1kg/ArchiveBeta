@@ -117,36 +117,36 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="bunifuElipse1.TrayLocation" type="System.Drawing.Point, System.Drawing">
+  <metadata name="bunifuElipse1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
-  </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="number.UserAddedColumn" type="System.Boolean, mscorlib">
+  </metadata>
+  <metadata name="number.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
-  </data>
-  <data name="name.UserAddedColumn" type="System.Boolean, mscorlib">
+  </metadata>
+  <metadata name="name.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
-  </data>
-  <data name="archiveTitle.UserAddedColumn" type="System.Boolean, mscorlib">
+  </metadata>
+  <metadata name="archiveTitle.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
-  </data>
-  <data name="archiveInfo.UserAddedColumn" type="System.Boolean, mscorlib">
+  </metadata>
+  <metadata name="archiveInfo.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
-  </data>
-  <data name="fileName.UserAddedColumn" type="System.Boolean, mscorlib">
+  </metadata>
+  <metadata name="fileName.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
-  </data>
+  </metadata>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="bunifuGradientPanel1.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
-        iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
-        wwAADsMBx2+oZAAAAYBJREFUKFMFwf0z2nEAwPHPP7Gzc8yaqCW1UtqXJKUn6UFS6StJ2RrG5Wket+E4
-        M2y2eTzbmHMMt+O2O+duP/jP3l4vUT51x5PxWx6PXFM2/JvSwSNK8vsU933hYe8qRelFHsgzCE3hP0+H
-        /qEauKQyf4Iy953yzBaK7g3K5GUexd9SEp1AGPtvePbyCn3ujOrMIdrULprkJur4B1TReSrC0ygDIwgp
-        +xdL+oLarmNMnQfUxL5hiKyhDy2ha51D6xunyvUaYe/6Q2PilIaOn1gjO9SFPiH5V7B432N2TWJyFDDa
-        XiE80XPcbb9oDu7j9H+lyfMRe/MitqZZrLYx6usGkSw5RDBwQsD3A797mxbnBl77Mh7rO1zSG5y1wzhq
-        8tj1PYiY+4ioY4/2xk3arKuEpQWC5mlajaP49QP4tFm8ahmRsh0g12+RfL5OwrxE3DBHh26C9qohIuoX
-        hJVpQoo4ImfZJWv6TMawQo9unm7NFClVAVnZT6eil0RpklhxhHsrhc2XyLtNFwAAAABJRU5ErkJggg==
+        iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAGASURBVChTBcH9M9pxAMDxzz+xs3PMmqgltVLalySlJ+lB
+        UukrSdkaxuVpHrfhODNstnk825hzDLfjtjvnbj/4z95eL1E+dceT8Vsej1xTNvyb0sEjSvL7FPd94WHv
+        KkXpRR7IMwhN4T9Ph/6hGrikMn+CMved8swWiu4NyuRlHsXfUhKdQBj7b3j28gp97ozqzCHa1C6a5Cbq
+        +AdU0XkqwtMoAyMIKfsXS/qC2q5jTJ0H1MS+YYisoQ8toWudQ+sbp8r1GmHv+kNj4pSGjp9YIzvUhT4h
+        +VeweN9jdk1ichQw2l4hPNFz3G2/aA7u4/R/pcnzEXvzIramWay2MerrBpEsOUQwcELA9wO/e5sW5wZe
+        +zIe6ztc0huctcM4avLY9T2ImPuIqGOP9sZN2qyrhKUFguZpWo2j+PUD+LRZvGoZkbIdINdvkXy+TsK8
+        RNwwR4dugvaqISLqF4SVaUKKOCJn2SVr+kzGsEKPbp5uzRQpVQFZ2U+nopdEaZJYcYR7K4XNl8i7TRcA
+        AAAASUVORK5CYII=
 </value>
   </data>
   <data name="pictureBox1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
@@ -184,7 +184,7 @@
         mzPvf0yQidrltaF2f3Xd9Sl91KwqKjydJCtY1Yai38802GS+aGn5F4xh65+HK23EAAAAAElFTkSuQmCC
 </value>
   </data>
-  <data name="bunifuDragControl1.TrayLocation" type="System.Drawing.Point, System.Drawing">
+  <metadata name="bunifuDragControl1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>141, 17</value>
-  </data>
+  </metadata>
 </root>
